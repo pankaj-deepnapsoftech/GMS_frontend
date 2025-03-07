@@ -2,10 +2,10 @@ import React from 'react';
 
 const Navbar = ({ toggleSidebar }) => {
   return (
-    <div className="bg-white shadow">
+    <div className="bg-white shadow border-b border-gray-200">
       <div className="container mx-auto">
         <div className="flex justify-between items-center py-4 px-2">
-          <h1 className="text-xl font-semibold">GMS Dashboard</h1>
+          <h1 className="text-xl text-end w-full mr-5 font-bold text-gray-600">Hi, Admin</h1>
 
           {/* Toggle button only visible on smaller screens */}
           <button
